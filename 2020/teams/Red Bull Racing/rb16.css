@@ -49,16 +49,148 @@ table {
 	border-spacing: 0;
 }
 
-/*  */
+/* Reference styles */
 .car-asset {
-  width: 1000px
+	width: 1000px
 }
 
 .car-image {
   width: 100%;
 }
 
-.car-build{
+/* Build artboard */
+.car-artboard{
 	width: 1000px;
 	height: 300px;
+	position: relative;
+	background-color: whitesmoke;
+}
+
+/* wheel version 1*/
+.wheel-ext {
+	background-color: black;
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+	position: relative;
+}
+
+.wheel-int {
+	background-color: white;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.wheel-hub {
+	background-color: black;
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.wheel-nut {
+	background-color: goldenrod;
+	height: 10px;
+	width: 10px;
+	border-radius: 100%;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.wheel-front {
+	position: absolute;
+	bottom: 20px;
+	left: 200px
+}
+
+/* wheel version 2 */
+.wheel-gradient {
+	background: radial-gradient(circle, rgb(235, 177, 30) 0%, rgb(235, 177, 30) 10%,rgb(4, 5, 5) 10%, rgb(6, 7, 7) 40%, rgb(196, 187, 187) 40%, rgb(155, 149, 149) 45%, black 45%, black 50%, white 50%, white 55%, black 55%, black 100%);
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+}
+
+.wheel-back {
+	position: absolute;
+	bottom: 20px;
+	right: 185px
+}
+
+/* Nose of the car */
+.body-nose {
+	width: 0;
+	height: 0;
+	border-top: 65px solid transparent;
+	border-right: 190px solid rgb(7, 7, 54);
+	position: absolute;
+	bottom: 35px;
+	left: 75px
+}
+
+.body-front-wing {
+	width: 75px;
+	height: 25px;
+	background-color: darkred;
+	position: absolute;
+	bottom: 30px;
+	left: 75px
+}
+
+/* Base for the body */
+.body-fuselage {
+	position: absolute;
+	width: 500px;
+	height: 70px;
+	background-color: rgb(7, 7, 54);
+	bottom: 35px;
+	left: 265px
+}
+
+/* halo */
+
+.halo-ext {
+	background:rgb(7, 7, 54);
+	height: 60px;
+	width: 200px;
+	position: absolute;
+	top: 175px;
+	left: 350px;
+	border-radius: 20px;
+	transform: skewX(-40deg) rotate(8deg);
+
+}
+
+.halo-int {
+	background-color: whitesmoke;
+	height: 40px;
+	width: 180px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	border-radius: 15px;
+
+}
+
+/* body air intake */
+
+
+/* rear wing */
+.rear-wing {
+	width: 90px;
+	height: 80px;
+	background-color: rgb(255, 30, 0);
+	transform: skewX(-17deg);
+	position: absolute;
+	border-bottom-right-radius: 20%;
+	bottom: 70px;
+	right: 140px;
 }

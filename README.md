@@ -9,3 +9,11 @@ The 2020 F1 Grid Lineup built in CSS | Open for Contributions
 
 ---
 
+## 2020 Cars
+
+- Red Bull Racing RB16
+
+---
+
+## Author
+- SimonLikelySaid @Twitch
