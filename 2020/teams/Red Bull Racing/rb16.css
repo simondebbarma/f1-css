@@ -131,6 +131,7 @@ table {
 	height: 0;
 	border-top: 65px solid transparent;
 	border-right: 190px solid rgb(7, 7, 54);
+	border-bottom-right-radius: 50%;
 	position: absolute;
 	bottom: 35px;
 	left: 75px
@@ -148,6 +149,9 @@ table {
 /* Base for the body */
 .body-fuselage {
 	position: absolute;
+	border-top-left-radius: 25%;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 30%;
 	width: 500px;
 	height: 70px;
 	background-color: rgb(7, 7, 54);
@@ -162,7 +166,7 @@ table {
 	height: 60px;
 	width: 200px;
 	position: absolute;
-	top: 175px;
+	top: 180px;
 	left: 350px;
 	border-radius: 20px;
 	transform: skewX(-40deg) rotate(8deg);
@@ -188,9 +192,15 @@ table {
 	width: 90px;
 	height: 80px;
 	background-color: rgb(255, 30, 0);
-	transform: skewX(-17deg);
+	transform: skewX(-20deg);
 	position: absolute;
 	border-bottom-right-radius: 20%;
+	border-top-left-radius: 5px;
 	bottom: 70px;
 	right: 140px;
+	box-shadow: inset 12px 15px black;
+}
+
+.text-esso {
+	color: blue;
 }
